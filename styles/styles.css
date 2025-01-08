@@ -11,7 +11,6 @@ body {
 
 .fullWrapper {
     display: flex;
-    @height: 100vh;
 }
 
 .sideBar {
@@ -19,7 +18,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 24px;
-height:100%;
+    height: 100%;
     background-color: #E7EEFF;
     padding: 12px 28px 708px 28px;
 }
@@ -48,8 +47,8 @@ height:100%;
     display: flex;
 
     justify-content: center;
-align-items: center;
-gap: 12px;
+    align-items: center;
+    gap: 12px;
 }
 
 .headerNavWrapper img {
@@ -72,7 +71,7 @@ header {
     justify-content: space-between;
     padding: 20px;
     background-color: #E7EEFF;
-    width: 100%; 
+    width: 100%;
 }
 
 .searchWrapper {
@@ -114,85 +113,85 @@ header {
 }
 
 main {
-display: flex;
-flex-direction: column;
-padding-right: 96px;
-padding-left: 96px;
-padding-bottom: 32px;
-gap: 42px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 96px;
+    padding-left: 96px;
+    padding-bottom: 32px;
+    gap: 42px;
 }
 
 .basicInfo {
     display: inline-flex;
-justify-content: flex-end;
-align-items: center;
-gap: 30px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
 }
 
 .infoContainer {
-display: flex;
-padding: 8px 24px 8px 12px;
-align-items: center;
-gap: 12px;
-border-radius: 16px;
-background: #E7EEFF;
+    display: flex;
+    padding: 8px 24px 8px 12px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 16px;
+    background: #E7EEFF;
 }
 
 .infoContainer span {
-color: #323232;
-font-weight: 400;
-line-height: 28px;
+    color: #323232;
+    font-weight: 400;
+    line-height: 28px;
 }
 
 .infoContainer:hover {
-color: #323232;
+    color: #323232;
 }
 
 .contentConainer {
-display: flex;
-width: auto;
-align-items: center;
-gap: 42px;
+    display: flex;
+    width: auto;
+    align-items: center;
+    gap: 42px;
 }
 
 
 .houseWrapper {
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-flex: 1 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 0 0;
 }
 
 .houseWrapper img {
-height: 275px;
-align-self: stretch;
-border-radius: 24px 24px 0px 0px;
-background: lightgray 50% ;
+    height: 275px;
+    align-self: stretch;
+    border-radius: 24px 24px 0px 0px;
+    background: lightgray 50%;
 }
 
 .abouthouse {
-display: flex;
-padding: 8px 12px;
-flex-direction: column;
-align-items: flex-start;
-gap: 4px;
-align-self: stretch;
-border-radius: 0px 0px 24px 24px;
-background: #E7EEFF;
+    display: flex;
+    padding: 8px 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    align-self: stretch;
+    border-radius: 0px 0px 24px 24px;
+    background: #E7EEFF;
 }
 
 .houseStyle {
-color: #000;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-align-self: stretch;
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    align-self: stretch;
 }
 
 .adress {
-color: #606060;
-font-size: 14px;
-font-weight: 400;
-line-height: 30px;
-align-self: stretch;
+    color: #606060;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    align-self: stretch;
 }
